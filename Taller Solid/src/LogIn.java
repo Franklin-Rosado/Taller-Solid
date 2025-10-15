@@ -1,11 +1,14 @@
-public class LogIn {
-    public void log (User user) {
+public class LogIn implements ILogIn{
+    @Override
+    public void log(User user) {
         System.out.println("Has access to the website");
         insertUserInDatabase(user);
-        // Logic
     }
-    public void insertUserInDatabase(User user){
-        // Insert user in database
+
+    public void insertUserInDatabase(User user) {
+        	// Logic
     }
+
+
 }
 

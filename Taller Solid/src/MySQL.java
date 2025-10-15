@@ -1,8 +1,23 @@
-public class MySQL {
-    public void insert(String statement){}
-    public void select(String statement){}
-    public void delete(String statement){}
-    public void update(String statement){}
-    // More Methods
+public class MySQL implements IDataBase{
+     @Override
+    public void insert(String statement) {
+        // Logic
+    }
+
+    @Override
+    public void select(String statement) {
+        // Logic
+    }
+
+    @Override
+    public void delete(String statement) {
+        // Logic
+    }
+
+    @Override
+    public void update(String statement) {
+        // Logic
+    }
+
 }
 
